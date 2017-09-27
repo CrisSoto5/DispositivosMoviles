@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">SARAm</string>
+    <string name="lbl_user">Usuario</string>
+    <string name="lbl_pass">Contraseña</string>
+    <string name="lbl_aceptar">Aceptar</string>
+
+    <!-- Strings related to login -->
+
+</resources>
