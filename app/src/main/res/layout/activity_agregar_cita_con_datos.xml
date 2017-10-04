@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joelc.proyectosaram.RegistrarMonitorActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewHorarioAtencion"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:hapticFeedbackEnabled="false"
+            android:text="@string/lbl_HoraAtencion"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="30dp"/>
+
+        <TextView
+            android:id="@+id/textViewHorario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewHorarioAtencion"
+            android:layout_marginTop="80dp"
+            android:text="@string/lbl_horario"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textViewLunes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewHorario"
+            android:layout_marginTop="20dp"
+            android:text="@string/lbl_lunes"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textViewMartes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewLunes"
+            android:layout_marginTop="20dp"
+            android:text="@string/lbl_martes"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textViewMiercoles"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewMartes"
+            android:layout_marginTop="20dp"
+            android:text="@string/lbl_miercoles"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textViewJueves"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewMiercoles"
+            android:layout_marginTop="20dp"
+            android:text="@string/lbl_jueves"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textViewViernes"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewJueves"
+            android:layout_marginTop="20dp"
+            android:text="@string/lbl_viernes"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textViewSabado"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewViernes"
+            android:layout_marginTop="20dp"
+            android:text="@string/lbl_Sabado"
+            android:textSize="14dp" />
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/floatingActionButtonAgregar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_alignTop="@+id/textViewSabado"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="50dp"
+            android:clickable="true"
+            app:backgroundTint="@android:color/black"
+            app:fabSize="mini"
+            app:rippleColor="@android:color/background_light"
+            app:srcCompat="@android:drawable/ic_menu_add" />
+
+        <Button
+            android:id="@+id/btn_siguiente"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/floatingActionButtonAgregar"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/lbl_finalizar"
+            android:textSize="14dp"/>
+
+    </RelativeLayout>
+
+</ScrollView>

@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joelc.proyectosaram.RegistrarMonitorActivity">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textViewAgregarCita"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:hapticFeedbackEnabled="false"
+            android:text="@string/lbl_agregar_cita"
+            android:textAppearance="@style/TextAppearance.AppCompat.Title"
+            android:textSize="40dp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_Cedula"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewAgregarCita"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp">
+
+            <EditText
+                android:id="@+id/txt_cedula"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_cedula"
+                android:textSize="14dp" />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/til_nombre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/til_Cedula"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp">
+
+            <EditText
+                android:id="@+id/txt_nombre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="@string/txt_nombre"
+                android:textSize="14dp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <TextView
+            android:id="@+id/textViewSemestre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/til_nombre"
+            android:layout_marginTop="10dp"
+            android:text="@string/lbl_semestre"
+            android:textSize="14dp" />
+
+        <Spinner
+            android:id="@+id/spinnerSemestre"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewSemestre"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textViewLineaMonitoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/spinnerSemestre"
+            android:layout_marginTop="10dp"
+            android:text="@string/txt_linea_monitoria"
+            android:textSize="14dp" />
+
+        <Spinner
+            android:id="@+id/spinnerLineaMonitoria"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewLineaMonitoria"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textViewMonitor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/spinnerLineaMonitoria"
+            android:layout_marginTop="10dp"
+            android:text="@string/lbl_monitor"
+            android:textSize="14dp" />
+
+        <Spinner
+            android:id="@+id/spinnerMonitor"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/textViewMonitor"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp" />
+
+        <TextView
+            android:id="@+id/textViewHorario"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/spinnerMonitor"
+            android:layout_marginTop="10dp"
+            android:text="@string/lbl_horario"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/btn_seleccionar_fecha"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/textViewHorario"
+            android:layout_marginTop="10dp"
+            android:text="@string/lbl_seleccionar_fecha"
+            android:textSize="14dp" />
+
+        <Spinner
+            android:id="@+id/spinnerHoraInicio"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/btn_seleccionar_fecha"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp" />
+
+        <Spinner
+            android:id="@+id/spinnerHoraFin"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentStart="true"
+            android:layout_below="@+id/spinnerHoraInicio"
+            android:layout_marginTop="10dp"
+            android:textSize="14dp" />
+
+        <Button
+            android:id="@+id/btn_finalizar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/spinnerHoraFin"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="10dp"
+            android:text="@string/lbl_finalizar"
+            android:textSize="14dp" />
+
+    </RelativeLayout>
+
+</ScrollView>
+

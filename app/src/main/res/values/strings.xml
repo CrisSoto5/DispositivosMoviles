@@ -2,8 +2,41 @@
     <string name="app_name">SARAm</string>
     <string name="lbl_user">Usuario</string>
     <string name="lbl_pass">Contraseña</string>
+    <string name="lbl_lunes">Lunes</string>
+    <string name="lbl_martes">Martes</string>
+    <string name="lbl_miercoles">Miercoles</string>
+    <string name="lbl_jueves">Jueves</string>
+    <string name="lbl_viernes">Viernes</string>
+    <string name="lbl_Sabado">Sabado</string>
     <string name="lbl_aceptar">Aceptar</string>
+    <string name="lbl_siguiente">Siguiente</string>
+    <string name="lbl_finalizar">Finalizar</string>
+    <string name="lbl_guardar">Guardar</string>
+    <string name="lbl_reg_monitor">Registrar Monitor</string>
+    <string name="lbl_reg_horario">Registrar Horario</string>
+    <string name="lbl_agregar_cita">Agregar Cita</string>
+    <string name="lbl_actualizar_monitor">Actualizar Monitor</string>
+    <string name="lbl_actualizar_Horario">Actualizar Horario</string>
+    <string name="txt_cedula">Cedula*</string>
+    <string name="txt_nombre">Nombre*</string>
+    <string name="txt_usuario">Usuario*</string>
+    <string name="txt_telefono">Teléfono*</string>
+    <string name="txt_linea_monitoria">Linea Monitoria*</string>
+    <string name="txt_lugar_asesoria">Lugar Asesoria*</string>
+    <string name="lbl_subir_foto">Subir Foto*</string>
+    <string name="lbl_semestre">Semestre*</string>
+    <string name="lbl_monitor">Monitor*</string>
+    <string name="lbl_horario">Horario*</string>
+    <string name="lbl_seleccionar_fecha">Seleccionar fecha*</string>
+    <string name="lbl_dia">Dia*</string>
+    <string name="lbl_HoraInicio">Hora Inicio*</string>
+    <string name="lbl_HoraFin">Hora Fin*</string>
+    <string name="lbl_HoraAtencion">Horarios de atención:</string>
+    <string name="ic_upload">Icono para subir imagen</string>
 
     <!-- Strings related to login -->
+
+    <item name="visible" type="id" />
+    <item name="masked" type="id" />
 
 </resources>
