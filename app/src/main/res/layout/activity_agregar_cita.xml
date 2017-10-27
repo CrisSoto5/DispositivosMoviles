@@ -12,7 +12,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textViewAgregarCita"
+            android:id="@+id/textViewAgregarCita_a_c"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -24,11 +24,11 @@
             android:textSize="40dp" />
 
         <android.support.design.widget.TextInputLayout
-            android:id="@+id/til_Cedula"
+            android:id="@+id/til_Cedula_a_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textViewAgregarCita"
+            android:layout_below="@+id/textViewAgregarCita_a_c"
             android:layout_marginTop="10dp"
             android:textSize="14dp">
 
@@ -42,11 +42,11 @@
         </android.support.design.widget.TextInputLayout>
 
         <android.support.design.widget.TextInputLayout
-            android:id="@+id/til_nombre"
+            android:id="@+id/til_nombre_a_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/til_Cedula"
+            android:layout_below="@+id/til_Cedula_a_c"
             android:layout_marginTop="10dp"
             android:textSize="14dp">
 
@@ -60,104 +60,104 @@
 
 
         <TextView
-            android:id="@+id/textViewSemestre"
+            android:id="@+id/textViewSemestre_a_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/til_nombre"
+            android:layout_below="@+id/til_nombre_a_c"
             android:layout_marginTop="10dp"
             android:text="@string/lbl_semestre"
             android:textSize="14dp" />
 
         <Spinner
-            android:id="@+id/spinnerSemestre"
+            android:id="@+id/spinnerSemestre_a_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textViewSemestre"
+            android:layout_below="@+id/textViewSemestre_a_c"
             android:layout_marginTop="10dp"
             android:textSize="14dp" />
 
         <TextView
-            android:id="@+id/textViewLineaMonitoria"
+            android:id="@+id/textViewLineaMonitoria_a_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/spinnerSemestre"
+            android:layout_below="@+id/spinnerSemestre_a_c"
             android:layout_marginTop="10dp"
             android:text="@string/txt_linea_monitoria"
             android:textSize="14dp" />
 
         <Spinner
-            android:id="@+id/spinnerLineaMonitoria"
+            android:id="@+id/spinnerLineaMonitoria_a_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textViewLineaMonitoria"
+            android:layout_below="@+id/textViewLineaMonitoria_a_c"
             android:layout_marginTop="10dp"
             android:textSize="14dp" />
 
         <TextView
-            android:id="@+id/textViewMonitor"
+            android:id="@+id/textViewMonitor_a_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/spinnerLineaMonitoria"
+            android:layout_below="@+id/spinnerLineaMonitoria_a_c"
             android:layout_marginTop="10dp"
             android:text="@string/lbl_monitor"
             android:textSize="14dp" />
 
         <Spinner
-            android:id="@+id/spinnerMonitor"
+            android:id="@+id/spinnerMonitor_a_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textViewMonitor"
+            android:layout_below="@+id/textViewMonitor_a_c"
             android:layout_marginTop="10dp"
             android:textSize="14dp" />
 
         <TextView
-            android:id="@+id/textViewHorario"
+            android:id="@+id/textViewHorario_a_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/spinnerMonitor"
+            android:layout_below="@+id/spinnerMonitor_a_c"
             android:layout_marginTop="10dp"
             android:text="@string/lbl_horario"
             android:textSize="14dp" />
 
         <Button
-            android:id="@+id/btn_seleccionar_fecha"
+            android:id="@+id/btn_seleccionar_fecha_a_c"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textViewHorario"
+            android:layout_below="@+id/textViewHorario_a_c"
             android:layout_marginTop="10dp"
             android:text="@string/lbl_seleccionar_fecha"
             android:textSize="14dp" />
 
         <Spinner
-            android:id="@+id/spinnerHoraInicio"
+            android:id="@+id/spinnerHoraInicio_a_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/btn_seleccionar_fecha"
+            android:layout_below="@+id/btn_seleccionar_fecha_a_c"
             android:layout_marginTop="10dp"
             android:textSize="14dp" />
 
         <Spinner
-            android:id="@+id/spinnerHoraFin"
+            android:id="@+id/spinnerHoraFin_a_c"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/spinnerHoraInicio"
+            android:layout_below="@+id/spinnerHoraInicio_a_c"
             android:layout_marginTop="10dp"
             android:textSize="14dp" />
 
         <Button
-            android:id="@+id/btn_finalizar"
+            android:id="@+id/btn_finalizar_a_c"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/spinnerHoraFin"
+            android:layout_below="@+id/spinnerHoraFin_a_c"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:text="@string/lbl_finalizar"

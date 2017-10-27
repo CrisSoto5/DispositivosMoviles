@@ -22,7 +22,7 @@
         android:textSize="40dp"/>
 
     <TextView
-        android:id="@+id/textViewDia"
+        android:id="@+id/textViewDia_a_h"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
@@ -32,57 +32,57 @@
         android:textSize="14dp" />
 
     <Spinner
-        android:id="@+id/spinnerDia"
+        android:id="@+id/spinnerDia_a_h"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textViewDia"
+        android:layout_below="@+id/textViewDia_a_h"
         android:layout_marginTop="20dp"
         android:textSize="14dp" />
 
     <TextView
-        android:id="@+id/textViewHoraInicio"
+        android:id="@+id/textViewHoraInicio_a_h"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/spinnerDia"
+        android:layout_below="@+id/spinnerDia_a_h"
         android:layout_marginTop="40dp"
         android:text="@string/lbl_HoraInicio"
         android:textSize="14dp" />
 
     <Spinner
-        android:id="@+id/spinnerHoraInicio"
+        android:id="@+id/spinnerHoraInicio_a_h"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textViewHoraInicio"
+        android:layout_below="@+id/textViewHoraInicio_a_h"
         android:layout_marginTop="20dp"
         android:textSize="14dp" />
 
     <TextView
-        android:id="@+id/textViewHoraFin"
+        android:id="@+id/textViewHoraFin_a_h"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/spinnerHoraInicio"
+        android:layout_below="@+id/spinnerHoraInicio_a_h"
         android:layout_marginTop="40dp"
         android:text="@string/lbl_HoraFin"
         android:textSize="14dp" />
 
     <Spinner
-        android:id="@+id/spinnerHoraFin"
+        android:id="@+id/spinnerHoraFin_a_h"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_alignParentStart="true"
-        android:layout_below="@+id/textViewHoraFin"
+        android:layout_below="@+id/textViewHoraFin_a_h"
         android:layout_marginTop="20dp"
         android:textSize="14dp" />
 
     <Button
-        android:id="@+id/btn_guardar"
+        android:id="@+id/btn_guardar_a_h"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@+id/spinnerHoraFin"
+        android:layout_below="@+id/spinnerHoraFin_a_h"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="30dp"
         android:text="@string/lbl_guardar"

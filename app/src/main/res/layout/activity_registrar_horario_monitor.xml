@@ -24,7 +24,7 @@
             android:textSize="40dp"/>
 
         <TextView
-            android:id="@+id/textViewHorario"
+            android:id="@+id/textViewHorario_r_h_m"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
@@ -34,71 +34,71 @@
             android:textSize="14dp" />
 
         <TextView
-            android:id="@+id/textViewLunes"
+            android:id="@+id/textViewLunes_r_h_m"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textViewHorario"
+            android:layout_below="@+id/textViewHorario_r_h_m"
             android:layout_marginTop="20dp"
             android:text="@string/lbl_lunes"
             android:textSize="14dp" />
 
         <TextView
-            android:id="@+id/textViewMartes"
+            android:id="@+id/textViewMartes_r_h_m"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textViewLunes"
+            android:layout_below="@+id/textViewLunes_r_h_m"
             android:layout_marginTop="20dp"
             android:text="@string/lbl_martes"
             android:textSize="14dp" />
 
         <TextView
-            android:id="@+id/textViewMiercoles"
+            android:id="@+id/textViewMiercoles_r_h_m"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textViewMartes"
+            android:layout_below="@+id/textViewMartes_r_h_m"
             android:layout_marginTop="20dp"
             android:text="@string/lbl_miercoles"
             android:textSize="14dp" />
 
         <TextView
-            android:id="@+id/textViewJueves"
+            android:id="@+id/textViewJueves_r_h_m"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textViewMiercoles"
+            android:layout_below="@+id/textViewMiercoles_r_h_m"
             android:layout_marginTop="20dp"
             android:text="@string/lbl_jueves"
             android:textSize="14dp" />
 
         <TextView
-            android:id="@+id/textViewViernes"
+            android:id="@+id/textViewViernes_r_h_m"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textViewJueves"
+            android:layout_below="@+id/textViewJueves_r_h_m"
             android:layout_marginTop="20dp"
             android:text="@string/lbl_viernes"
             android:textSize="14dp" />
 
         <TextView
-            android:id="@+id/textViewSabado"
+            android:id="@+id/textViewSabado_r_h_m"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textViewViernes"
+            android:layout_below="@+id/textViewViernes_r_h_m"
             android:layout_marginTop="20dp"
             android:text="@string/lbl_Sabado"
             android:textSize="14dp" />
 
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/floatingActionButtonAgregar"
+            android:id="@+id/floatingActionButtonAgregar_r_h_m"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_alignTop="@+id/textViewSabado"
+            android:layout_alignTop="@+id/textViewSabado_r_h_m"
             android:layout_marginEnd="24dp"
             android:layout_marginTop="50dp"
             android:clickable="true"
@@ -108,10 +108,10 @@
             app:srcCompat="@android:drawable/ic_menu_add" />
 
         <Button
-            android:id="@+id/btn_siguiente"
+            android:id="@+id/btn_finalizar_cita_r_h_m"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/floatingActionButtonAgregar"
+            android:layout_below="@+id/floatingActionButtonAgregar_r_h_m"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:text="@string/lbl_finalizar"

@@ -33,6 +33,9 @@
     <string name="lbl_HoraFin">Hora Fin*</string>
     <string name="lbl_HoraAtencion">Horarios de atención:</string>
     <string name="ic_upload">Icono para subir imagen</string>
+    <string name="msj_img_actualizada">Imagen Actualizada</string>
+    <string name="msj_sel_aplicación">Seleccione la Aplicación</string>
+    <string name="msj_Horario_monitor_creado">Horario Monitor Creado</string>
 
     <!-- Strings related to login -->
 
