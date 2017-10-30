@@ -1,42 +1,24 @@
 <resources>
-    <string name="app_name">SARAm</string>
-    <string name="lbl_user">Usuario</string>
-    <string name="lbl_pass">Contraseña</string>
-    <string name="lbl_lunes">Lunes</string>
-    <string name="lbl_martes">Martes</string>
-    <string name="lbl_miercoles">Miercoles</string>
-    <string name="lbl_jueves">Jueves</string>
-    <string name="lbl_viernes">Viernes</string>
-    <string name="lbl_Sabado">Sabado</string>
-    <string name="lbl_aceptar">Aceptar</string>
-    <string name="lbl_siguiente">Siguiente</string>
-    <string name="lbl_finalizar">Finalizar</string>
-    <string name="lbl_guardar">Guardar</string>
-    <string name="lbl_reg_monitor">Registrar Monitor</string>
-    <string name="lbl_reg_horario">Registrar Horario</string>
-    <string name="lbl_agregar_cita">Agregar Cita</string>
-    <string name="lbl_actualizar_monitor">Actualizar Monitor</string>
-    <string name="lbl_actualizar_Horario">Actualizar Horario</string>
-    <string name="txt_cedula">Cedula*</string>
-    <string name="txt_nombre">Nombre*</string>
-    <string name="txt_usuario">Usuario*</string>
-    <string name="txt_telefono">Teléfono*</string>
-    <string name="txt_linea_monitoria">Linea Monitoria*</string>
-    <string name="txt_lugar_asesoria">Lugar Asesoria*</string>
-    <string name="lbl_subir_foto">Subir Foto*</string>
-    <string name="lbl_semestre">Semestre*</string>
-    <string name="lbl_monitor">Monitor*</string>
-    <string name="lbl_horario">Horario*</string>
-    <string name="lbl_seleccionar_fecha">Seleccionar fecha*</string>
-    <string name="lbl_dia">Dia*</string>
-    <string name="lbl_HoraInicio">Hora Inicio*</string>
-    <string name="lbl_HoraFin">Hora Fin*</string>
-    <string name="lbl_HoraAtencion">Horarios de atención:</string>
-    <string name="ic_upload">Icono para subir imagen</string>
+    <string name="app_name">SARA</string>
 
-    <!-- Strings related to login -->
-
-    <item name="visible" type="id" />
-    <item name="masked" type="id" />
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="texto_homero">Homer Jay Simpson (Homero Jay
+Simpson en Hispanoamérica), más conocido como Homer Simpson (Homero Simpson
+en Hispanoamérica), es un personaje ficticio protagonista de la serie de
+televisión de dibujos animados Los Simpson. Es el padre de la familia
+protagonista y uno de los personajes centrales y más importantes de la serie.
+Fue creado por el dibujante Matt Groening e hizo su debut en televisión el 19
+de abril de 1987, en el corto Good Night del programa El show de Tracey
+Ullman. El segundo nombre de Homer Simpson es un juego de palabras; durante
+muchas temporadas no se supo qué había detrás de la J hasta que en el
+capítulo «Doh-in In the Wind» Homer descubre que su segundo nombre es Jay
+(nombre en inglés de la letra j); de este modo, cuando Homer pronuncia en
+inglés su propio nombre, no se distingue si da la letra inicial del segundo
+nombre o este al completo.</string>
+    <string name="title_activity_detalle_de_personaje">DetalleDePersonajeActivity</string>
+    <string name="title_activity_tabbed">TabbedActivity</string>
+    <string name="action_settings">Settings</string>
+    <string name="section_format">Hello World from section: %1$d</string>
 
 </resources>
