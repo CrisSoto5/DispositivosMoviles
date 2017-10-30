@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.joelc.proyectosaram.AgregarCitaConDatosActivity">
+    tools:context="com.example.joelc.proyectosaram.ActualizarCitaConDatosActivity">
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -12,7 +12,7 @@
         android:orientation="vertical">
 
         <TextView
-            android:id="@+id/textViewHorarioAtencion_a_c_d"
+            android:id="@+id/textViewHorarioAtencion_u_c_d"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentTop="true"
@@ -24,81 +24,81 @@
             android:textSize="30dp"/>
 
         <TextView
-            android:id="@+id/textViewHorario_a_c_d"
+            android:id="@+id/textViewHorario_u_c_d"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textViewHorarioAtencion_a_c_d"
+            android:layout_below="@+id/textViewHorarioAtencion_u_c_d"
             android:layout_marginTop="80dp"
             android:text="@string/lbl_horario"
             android:textSize="14dp" />
 
         <TextView
-            android:id="@+id/textViewLunes_a_c_d"
+            android:id="@+id/textViewLunes_u_c_d"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textViewHorario_a_c_d"
+            android:layout_below="@+id/textViewHorario_u_c_d"
             android:layout_marginTop="20dp"
             android:text="@string/lbl_lunes"
             android:textSize="14dp" />
 
         <TextView
-            android:id="@+id/textViewMartes_a_c_d"
+            android:id="@+id/textViewMartes_u_c_d"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textViewLunes_a_c_d"
+            android:layout_below="@+id/textViewLunes_u_c_d"
             android:layout_marginTop="20dp"
             android:text="@string/lbl_martes"
             android:textSize="14dp" />
 
         <TextView
-            android:id="@+id/textViewMiercoles_a_c_d"
+            android:id="@+id/textViewMiercoles_u_c_d"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textViewMartes_a_c_d"
+            android:layout_below="@+id/textViewMartes_u_c_d"
             android:layout_marginTop="20dp"
             android:text="@string/lbl_miercoles"
             android:textSize="14dp" />
 
         <TextView
-            android:id="@+id/textViewJueves_a_c_d"
+            android:id="@+id/textViewJueves_u_c_d"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textViewMiercoles_a_c_d"
+            android:layout_below="@+id/textViewMiercoles_u_c_d"
             android:layout_marginTop="20dp"
             android:text="@string/lbl_jueves"
             android:textSize="14dp" />
 
         <TextView
-            android:id="@+id/textViewViernes_a_c_d"
+            android:id="@+id/textViewViernes_u_c_d"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textViewJueves_a_c_d"
+            android:layout_below="@+id/textViewJueves_u_c_d"
             android:layout_marginTop="20dp"
             android:text="@string/lbl_viernes"
             android:textSize="14dp" />
 
         <TextView
-            android:id="@+id/textViewSabado_a_c_d"
+            android:id="@+id/textViewSabado_u_c_d"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_alignParentStart="true"
-            android:layout_below="@+id/textViewViernes_a_c_d"
+            android:layout_below="@+id/textViewViernes_u_c_d"
             android:layout_marginTop="20dp"
             android:text="@string/lbl_Sabado"
             android:textSize="14dp" />
 
         <android.support.design.widget.FloatingActionButton
-            android:id="@+id/floatingActionButtonAgregar_a_c_d"
+            android:id="@+id/floatingActionButtonAgregar_u_c_d"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentEnd="true"
-            android:layout_alignTop="@+id/textViewSabado_a_c_d"
+            android:layout_alignTop="@+id/textViewSabado_u_c_d"
             android:layout_marginEnd="24dp"
             android:layout_marginTop="50dp"
             android:clickable="true"
@@ -108,10 +108,10 @@
             app:srcCompat="@android:drawable/ic_menu_add" />
 
         <Button
-            android:id="@+id/btn_finalizar_a_c_d"
+            android:id="@+id/btn_finalizar_u_c_d"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/floatingActionButtonAgregar_a_c_d"
+            android:layout_below="@+id/floatingActionButtonAgregar_u_c_d"
             android:layout_centerHorizontal="true"
             android:layout_marginTop="10dp"
             android:text="@string/lbl_finalizar"
@@ -120,3 +120,4 @@
     </RelativeLayout>
 
 </ScrollView>
+

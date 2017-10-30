@@ -29,12 +29,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ActualizarMonitorActivity" />
+        <activity android:name=".ActualizarMonitorActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity android:name=".RegistrarHorarioActivity" />
         <activity android:name=".ActualizarHorarioActivity" />
         <activity android:name=".AgregarCitaActivity" />
         <activity android:name=".RegistrarHorarioMonitorActivity" />
         <activity android:name=".AgregarCitaConDatosActivity" />
+        <activity android:name=".ActualizarHorarioMonitorActivity" />
+        <activity android:name=".ActualizarCitaConDatosActivity"></activity>
     </application>
 
 </manifest>

@@ -21,7 +21,7 @@
             android:hapticFeedbackEnabled="false"
             android:textAppearance="@style/TextAppearance.AppCompat.Title"
             android:textSize="40dp"
-            tools:text="@string/lbl_actualizar_monitor" />
+            android:text="@string/lbl_actualizar_monitor" />
 
         <android.support.design.widget.TextInputLayout
             android:id="@+id/til_Cedula_a_m"
@@ -151,24 +151,25 @@
             android:layout_marginTop="10dp"
             android:textSize="14dp" />
 
-        <TextView
-            android:id="@+id/textViewSubirFoto_a_m"
+        <ImageView
+            android:id="@+id/img_update_SubirFoto_a_m"
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentStart="true"
+            android:layout_height="200dp"
+            android:src="@drawable/foto_no_disponible"
             android:layout_below="@+id/spinnerLugarAsesoria_a_m"
             android:layout_marginTop="10dp"
-            android:text="@string/lbl_subir_foto"
             android:textSize="14dp" />
 
-        <ImageButton
+        <Button
             android:id="@+id/btn_update_image_a_m"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_below="@+id/textViewSubirFoto_a_m"
+            android:layout_below="@+id/img_update_SubirFoto_a_m"
             android:contentDescription="@string/ic_upload"
+            android:text="@string/lbl_subir_foto"
             android:layout_marginTop="10dp"
-            android:src="@mipmap/ic_launcher_update" />
+            android:src="@mipmap/ic_launcher_update"
+            android:drawableLeft="@mipmap/ic_launcher_update"/>
 
         <Button
             android:id="@+id/btn_siguiente_a_m"
